@@ -24,4 +24,19 @@ console.log("My pet's dog name is", petDog)
 console.log("My pet's Cat name is", petCat)
 
 
+// Creating var catsound 
+
+var catsound;
+var catsound = "purr";
+
+// Creating var dogsound
+var dogsound;
+var dogsound = "woof";
+
+// Outputing catsound concatenation
+console.log(petCat,"say", catsound)
+// Outputing catsound concatenation
+console.log(petDog, "say" , dogsound)
+
+
 
