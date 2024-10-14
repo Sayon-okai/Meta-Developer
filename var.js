@@ -17,11 +17,11 @@ console.log("My cat", petCat)
 
 // The petDog name console output concatenation
 
-console.log("My pet's dog name is", petDog)
+console.log("My pet's dog name is", + petDog)
 
 // The petCat name console output concatenation
 
-console.log("My pet's Cat name is", petCat)
+console.log("My pet's Cat name is", + petCat)
 
 
 // Creating var catsound 
