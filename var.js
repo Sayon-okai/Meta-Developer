@@ -34,9 +34,12 @@ var dogsound;
 var dogsound = "woof";
 
 // Outputing catsound concatenation
-console.log(petCat,"say", catsound)
+console.log(petCat,"say", catsound);
 // Outputing catsound concatenation
-console.log(petDog, "say" , dogsound)
+console.log(petDog, "say" , dogsound);
 
-
+// resigning catsound a value meow
+ catsound = "meow";
+ // Outputing catsound concatenation
+ console.log(petCat, "now say", catsound);
 
