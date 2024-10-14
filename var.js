@@ -8,4 +8,10 @@ var petDog;
 
 var petDog = "Rex";
 
-console.log("My pet",petDog);
+console.log("My dog",petDog);
+
+
+var petCat;
+var petCat = "pepper";
+console.log("My cat", petCat)
+
