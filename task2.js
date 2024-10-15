@@ -19,4 +19,15 @@ Note that the expected output in the console should be: "Game over: true".
 
 
 */
+// Variable is equal to 0
+var timeRemaining = 0;
+// Variable is equal to 10
+var energy = 10;
+
+/* 
+Console log the following parameters: "Game over: ", and timeRemaining == 0 || energy == 0
+
+*/
+
+console.log("Game over", timeRemaining == 0 || energy == 0);
 
