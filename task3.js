@@ -50,6 +50,31 @@ The fourth variable, named test2, should be assigned the calculation of num2 % 2
 var test2 = num2 % 2;
 
 /* 
-      
+   
+The fifth variable, named result1, should be assigned the result of comparing if the number stored in the test1 variable is not equal to 0, in other words, this: test1 == 0.   
+
+*/
+
+var result1 = test1 === 0;
+
+/* 
+The sixth variable, named result2, should be assigned the result of comparing if the number stored in the test2 variable is not equal to 0, in other words, test2 == 0.
+
+*/
+
+var result2 = test2 === 0;
+
+/* 
+   Run console log two times after you've set the variables:
+
+The first console log should have the following code between parentheses: "Is", num1, "an even number?", result1
+
+The second console log should have the following code between parentheses: "Is", num2, "an even number?", result2
+
+Note: The output to the console should be as follows:
+
+Is 2 an even number? true
+
+Is 5 an even number? false
 
 */
