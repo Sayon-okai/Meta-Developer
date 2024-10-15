@@ -8,5 +8,7 @@ Use console.log() that includes the string "Mid-level skills:" and compares the 
 The expected output in the console should be: "Mid-level skills: true".*/
 
 // Score is greater the zero and score is lease the 10
+
+// Variable name score and a value 8 is assigned to score 
 var score = 8;
 console.log("Mid-level skills:", score > 0 && score < 10);
