@@ -30,3 +30,26 @@ Is 5 an even number? false
 
 */
 
+// Step 1 The first variable, named num1,  should be assigned a number value of 2.
+
+var num1 = 2;
+// The second variable, named num2, should be assigned a number value of 5.
+var num2 = 5;
+
+/* 
+   The third variable, named test1, should be assigned the calculation of num1 % 2. Note: executing this code will return a number.
+
+*/
+
+var test1 = num1 % 2;
+
+/* 
+The fourth variable, named test2, should be assigned the calculation of num2 % 2. Note: executing this code will also return a number.
+*/
+
+var test2 = num2 % 2;
+
+/* 
+      
+
+*/
