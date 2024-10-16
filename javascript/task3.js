@@ -80,4 +80,4 @@ Is 5 an even number? false
 */
 
 console.log("Is", num1, "an even number?", result1); 
-console.log("Is", num1, "an even number?", result2);
+console.log("Is", num2, "an even number?", result2);
