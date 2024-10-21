@@ -6,4 +6,7 @@ console.log("Mary is my Friend")
 console.log('This is a John')
 
 // Below is an error
-  console.log('It's me John')
+  // console.log('It's me John')
+    // Below is an error
+  console.log("It's me John")
+
