@@ -7,11 +7,11 @@
 
 // var block
 
-var result = 50;
+var result = 70;
 
 // Statement
-if(result > 49 ){
-    console.log("You have passed the exam, your score is")
+if(result > 69 ){
+    console.log("You have passed the exam, your score is", result)
 }else {
     console.log("You have Failed the exam, your score is")
         
