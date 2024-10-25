@@ -16,7 +16,7 @@ Finally, update the console.log calls for each case, based on whatever activity 
 
 var day = "Sunday";
 
-switch (day == "Sunday") {
+switch (day) {
     case "Monday":
         console.log("Today is Monday");
         break;
@@ -27,14 +27,16 @@ switch (day == "Sunday") {
         break;
     case "Thursday":
         console.log("Today is Thursday");
+        break;
     case "Friday":
         console.log("Today is Friday");
         break;
     case "Saturday":
         console.log("Today is Saturday");
-    case "Saturday":
-            console.log("Today is Saturday");
-            break;
+        break;
+    case "Sunday":
+            console.log("Today is Sunday");
+        break;
     
     default:
         console.log("There is no such case") ;        
