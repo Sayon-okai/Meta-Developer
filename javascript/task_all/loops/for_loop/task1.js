@@ -5,7 +5,7 @@
          after the count in the console.
 
 */
-
+// i increament 
 for (let i = 1; i <= 5; i++) {
     console.log(i);
 }
