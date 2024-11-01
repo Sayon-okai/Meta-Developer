@@ -3,11 +3,11 @@
    While loop increament
 */
 
-var i = 5;
+var i = 1;
 
-while (i > 0 ) {
+while (i <= 5 ) {
        console.log(i);
        i = i + 1;
-      break;
+      
 }
-console.log('Counting completed!')
+console.log('Counting completed!');
