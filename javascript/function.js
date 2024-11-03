@@ -9,9 +9,14 @@ function listArrayItems(colors) {
       /*  Display the array item where the index is equal to i
 
       */
-     console.log(i, colors[i]);
-    }
 
+    //  console.log(i, colors[i]);
+    // }
+
+    // To start the count from one instead of zero,
+    console.log(i +1, colors[i])
+
+}
 }
 
 
