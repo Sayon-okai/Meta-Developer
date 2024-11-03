@@ -1,11 +1,26 @@
 
 
+// Declearing a function
+
+function listArrayItems(colors) {
+    // List array items
+    for (var i = 0; i < colors.length; i++) {
+
+      /*  Display the array item where the index is equal to i
+
+      */
+     console.log(i, colors[i]);
+    }
+
+}
+
+
 /*
    #########
    Creating a array of color 
 */
 
-const color = [
+var colors = [
     'red',
      'orange', 
      'yellow', 
@@ -15,16 +30,5 @@ const color = [
       'pink',
     ]
 
-// Declearing a function
+    listArrayItems(colors);
 
-function listArrayItems(arr) {
-    // List array items
-    for (var i = 0; i < arr.length; i++) {
-
-      /*  Display the array item where the index is equal to i
-
-      */
-
-     console.log(arr[i])
-    }
-}
