@@ -1,5 +1,20 @@
 
 
+/*
+   #########
+   Creating a array of color 
+*/
+
+const color = [
+    'red',
+     'orange', 
+     'yellow', 
+     'green', 
+     'blue',
+      'purple',
+      'pink',
+    ]
+
 // Declearing a function
 
 function listArrayItems(arr) {
