@@ -26,16 +26,24 @@ const door = {
     bell: function() {
         return "Ring, ring! Come here, please!"
     }
-}
+} ;
 
 const recess = {
     bell: function() {
         return "Yey! it is recess"
     }
-}
-// Accessing the bell method on bicycle
-bicycle.bell();
-// Accessing the bell method on door 
-door.bell();
-// Accessing the bell method for recess
-recess.bell();
+};
+
+    // Making code turely polymorphic
+
+    function ringthebell(thing) {
+            console.log(thing.bell);
+    };
+
+// }
+// // Accessing the bell method on bicycle
+// bicycle.bell();
+// // Accessing the bell method on door 
+// door.bell();
+// // Accessing the bell method for recess
+// recess.bell();
