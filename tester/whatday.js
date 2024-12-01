@@ -11,7 +11,7 @@ function getCurentday (day) {
         }
 }
 
-getCurentday(today);
+getCurentday(today); 
 
 
 
