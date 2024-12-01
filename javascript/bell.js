@@ -33,9 +33,9 @@ const recess = {
         return "Yey! it is recess"
     }
 }
-// Accessing the bell property on bicycle
+// Accessing the bell method on bicycle
 bicycle.bell();
-// Accessing the bell property on door 
+// Accessing the bell method on door 
 door.bell();
-// Accessing the bell property for recess
+// Accessing the bell method for recess
 recess.bell();
