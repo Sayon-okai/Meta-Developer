@@ -72,5 +72,14 @@ makeSound() {
 }
 
 // Bird sub class of Animal
-
+class Bird extends Animal {
+    constructor(sound = 'chrip', canFly = true, color, energy) {
+        super(color,energy)
+        this.sound = sound;
+        this.canFly = canFly;
+    }
+    makeSound() {
+        console.log(this.sound)
+    }
+}
 
