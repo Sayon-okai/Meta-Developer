@@ -2,7 +2,7 @@
 
 
 
-function getCurentday (day) {
+function getCurentday (day = today) {
 
         if (day === today) {
             return new Date ()
@@ -11,7 +11,7 @@ function getCurentday (day) {
         }
 }
 
-getCurentday(today); 
+getCurentday(); 
 
 
 
