@@ -121,9 +121,15 @@ class Person {
 // Task 2: Code a Worker class
 class Worker extends Person {
     // xp for experience points
-    constructor( xp = 0, hourlyWage = 10 )
+    constructor( name, age, energy, xp = 0, hourlyWage = 10 )
        {
-      
+           super(name, age, energy)
+           this.xp = xp;
+           this.hourlyWage = hourlyWage;
+    }
+
+    goToWork() {
+              this.xp += 10;
     }
     
 }
@@ -131,10 +137,23 @@ class Worker extends Person {
 
 // Task 3: Code an intern object, run methods
 function intern() {
+    let internStudent = new Worker 
+    ("Bob", 21, 110, 0, 10)
+    // running the goToWork method
+    internStudent.goToWork()
+    // Returning intern object
+    return internStudent;
   
 }
 
 // Task 4: Code a manager object, methods
 function manager() {
-    
+    let Manager = new Worker ('Alice', 30, 120, 100, 30 )
+    // running the doSomethingFun method
+    Manager.doSomethingFun()
+    return Manager;
 }
+
+// Calling intern and manager object
+console.log(intern());
+console.log(manager());
