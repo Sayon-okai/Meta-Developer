@@ -17,8 +17,9 @@ bird.canFly = true;
 bird.hasFeathers = true;
 
 function birdCan() {
-    for (var b of Object.keys(bird)) {
-        console.log(`${b}:${bird[b]}`);
+    // Prop is for properties of bird
+    for (let prop of Object.keys(bird)) {
+        console.log(prop, ":" , bird[prop]);
     }
 }
 
@@ -26,8 +27,8 @@ birdCan();
 
 // Task 3
 function animalCan() {
-    for (var b in bird) {
-        console.log(`${b}:${bird[b]}`);
+    for (let prop  in bird) {
+        console.log(prop, ":" ,bird[prop]);
     }
 }
 
