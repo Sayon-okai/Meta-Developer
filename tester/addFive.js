@@ -6,3 +6,9 @@ return  it
 
 */
 
+function addFive(val) {
+    return val + 5;
+};
+
+// Exporting the module for accessibility
+module.export = addFive;
